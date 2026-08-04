@@ -52,4 +52,23 @@ console.log(area);
 // let age = 30; 
 // console.log(age);
  
+{
+var problem = "This is a problem.";
+let solution = "This is a solution.";}
 
+console.log(problem);
+// console.log(solution);
+
+let num1 = 10;
+{
+    let num1 = 20;
+    console.log(num1);
+}    
+console.log(num1);
+
+var num2 = 30;
+{
+    var num2 = 40;
+    console.log(num2);
+}
+console.log(num2);
