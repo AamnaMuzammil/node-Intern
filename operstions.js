@@ -47,6 +47,8 @@ console.log("subtraction of a and b is: ",a-b);
 console.log("multiplication of a and b is: ",a*b);
 console.log("division of a and b is: ",a/b);
 console.log("modulus of a and b is: ",a%b);
+console.log("exponent of a and b is: ",a**b);
+
 
 a=10;
 b=20;
@@ -73,3 +75,33 @@ else if(name=="ali"){
 
 name="1234";
 number=1234;
+console.log(name==number);
+console.log(name===number);
+console.log(typeof name);
+console.log(typeof number);
+
+if(name==number||name===number){
+    console.log("name and number are not equal");
+}
+else{
+    console.log("name and number are equal");
+}
+
+var E=20;
+console.log(E);
+a+=E;
+console.log(a);
+a-=E;
+console.log(a);
+a*=E;
+console.log(a);
+a/=E;
+console.log(a);
+a%=E;
+console.log(a);
+a=E--;
+console.log(a);
+
+
+b=E++;
+console.log(b);
