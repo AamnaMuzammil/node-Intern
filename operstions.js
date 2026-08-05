@@ -89,19 +89,17 @@ else{
 
 var E=20;
 console.log(E);
-a+=E;
-console.log(a);
-a-=E;
-console.log(a);
-a*=E;
-console.log(a);
-a/=E;
-console.log(a);
-a%=E;
-console.log(a);
-a=E--;
-console.log(a);
+E+=5;
+console.log(E);
+E-=5;
+console.log(E);
+E*=5;
+console.log(E);
+E/=5;
+console.log(E);
+E%=5;
+console.log(E);
+E**=5;
+console.log(E);
 
 
-b=E++;
-console.log(b);
